@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "471698485360",
+    "project_id": "estsharty-10a5d",
+    "storage_bucket": "estsharty-10a5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471698485360:android:da0b81cf4ae54e5a5804b5",
+        "android_client_info": {
+          "package_name": "com.example.estshartey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471698485360-0v7vl8sjnjb9bqekphf04dkou6lg72el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAku0Qm0BEtQDwlwKxCG0wGM62S5ii5vy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471698485360-0v7vl8sjnjb9bqekphf04dkou6lg72el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

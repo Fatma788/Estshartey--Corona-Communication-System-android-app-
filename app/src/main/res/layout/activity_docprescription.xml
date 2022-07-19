@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".docprescription"
+    >
+
+    <!-- TODO: Replace hard-coded strings with @string resources-->
+
+    <!--Split the screen into two columns of cards-->
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="206dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+
+            <EditText
+                android:id="@+id/ddiag"
+                android:layout_width="365dp"
+                android:layout_height="62dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="97dp"
+                android:gravity="top" />
+
+            <RelativeLayout
+                android:id="@+id/linear_card_view"
+                android:layout_width="389dp"
+                android:layout_height="54dp"
+                android:background="@drawable/gradientcolor">
+
+                <TextView
+                    android:id="@+id/textView_heading_patient_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+
+                    android:paddingStart="20dp"
+                    android:text="Diagnosis"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_prescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/ic_prescription_gray" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+
+            <TextView
+                android:id="@+id/Medicine"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="73dp"
+                android:gravity="center_vertical"
+                android:text="Medicine" />
+
+            <EditText
+                android:id="@+id/dMedicinetext"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="97dp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/dose"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="150dp"
+                android:gravity="center_vertical"
+                android:text="dose" />
+
+            <EditText
+                android:id="@+id/ddosetext"
+                android:layout_width="71dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="172dp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/every"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="150dp"
+                android:gravity="center_vertical"
+                android:text="Every" />
+
+            <EditText
+                android:id="@+id/deverytext"
+                android:layout_width="71dp"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="172dp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="150dp"
+                android:gravity="center_vertical"
+                android:text="Duration" />
+
+            <EditText
+                android:id="@+id/ddurationtext"
+                android:layout_width="71dp"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="172dp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/com"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="220dp"
+                android:gravity="center_vertical"
+                android:text="Doctor Comments" />
+
+            <EditText
+                android:id="@+id/ddoccom"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="266dp"
+                android:gravity="top" />
+
+
+            <RelativeLayout
+
+                android:layout_width="389dp"
+                android:layout_height="54dp"
+                android:background="@drawable/gradientcolor">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+
+                    android:paddingStart="20dp"
+                    android:text="Medications"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/ic_prescription_gray" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="373dp"
+            android:layout_height="277dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+
+            <TextView
+                android:id="@+id/Test"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="73dp"
+                android:gravity="center_vertical"
+                android:text="Test" />
+
+            <EditText
+                android:id="@+id/dTesttext"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="97dp"
+                android:gravity="top" />
+
+
+            <TextView
+                android:id="@+id/com2"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="160dp"
+                android:gravity="center_vertical"
+                android:text="Doctor Comments" />
+
+            <EditText
+                android:id="@+id/ddoccom2"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="210dp"
+                android:gravity="top" />
+
+
+            <RelativeLayout
+
+                android:layout_width="389dp"
+                android:layout_height="54dp"
+                android:background="@drawable/gradientcolor">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+
+                    android:paddingStart="20dp"
+                    android:text="Medical Tests"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/ic_prescription_gray" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="371dp"
+            android:layout_height="387dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+
+            <TextView
+                android:id="@+id/RadiologyType"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="73dp"
+                android:gravity="center_vertical"
+                android:text="Radiology Type" />
+
+            <EditText
+                android:id="@+id/dRadiologyTypetext"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="97dp"
+                android:gravity="top" />
+
+
+            <TextView
+                android:id="@+id/on"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="146dp"
+                android:gravity="center_vertical"
+                android:text="On" />
+
+            <EditText
+                android:id="@+id/dontext"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="195dp"
+                android:gravity="top" />
+
+
+            <TextView
+                android:id="@+id/com3"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="245dp"
+                android:gravity="center_vertical"
+                android:text="Doctor Comments" />
+
+            <EditText
+                android:id="@+id/ddoccom3"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="290dp"
+                android:gravity="top" />
+
+
+            <RelativeLayout
+
+                android:layout_width="389dp"
+                android:layout_height="54dp"
+                android:background="@drawable/gradientcolor">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+
+                    android:paddingStart="20dp"
+                    android:text="Radiology"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/ic_prescription_gray" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_boold.xml" value="0.20416666666666666" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_cardinfo.xml" value="0.20416666666666666" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_consulation.xml" value="0.18840579710144928" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_consultation_payment.xml" value="0.20416666666666666" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_consutation.xml" value="0.25" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_docprescription.xml" value="0.25" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_food.xml" value="0.18432971014492755" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_history_doctor.xml" value="0.16" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_medications.xml" value="0.20416666666666666" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_prescription.xml" value="0.14" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_prescsub.xml" value="0.18070652173913043" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_profile_doctor.xml" value="0.18" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_profile_medi.xml" value="0.22" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_ratingdoctors.xml" value="0.20416666666666666" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_session.xml" value="0.18432971014492755" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_sessiongoactive.xml" value="0.18432971014492755" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/activity_signupdoctor.xml" value="0.18840579710144928" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/consutation.xml" value="0.18432971014492755" />
+        <entry key="..\:/$$Extra/Estshartey v4/app/src/main/res/layout/signup_doctor.xml" value="0.18840579710144928" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_boold.xml" value="0.13" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_cardinfo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_consulation.xml" value="0.25" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_docprescription.xml" value="0.25" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_doctororpatient.xml" value="0.1716485507246377" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_food.xml" value="0.16" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_getstartedscreen.xml" value="0.16530797101449277" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_history.xml" value="0.22" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_history_doctor.xml" value="0.22" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_main.xml" value="0.16530797101449277" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_medications.xml" value="0.14990942028985507" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_prescription.xml" value="0.21" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_prescsub.xml" value="0.1716485507246377" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_profile_doctor.xml" value="0.25" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_profile_medi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_session.xml" value="0.33" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_sessiongoactive.xml" value="0.1716485507246377" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/activity_smoking.xml" value="0.18" />
+        <entry key="..\:/Estshartey v4/app/src/main/res/layout/sellect_all.xml" value="0.14990942028985507" />
+        <entry key="..\:/Estshartey/app/src/main/res/drawable/edit_icon.xml" value="0.2203125" />
+        <entry key="..\:/Estshartey/app/src/main/res/drawable/gradientcolor.xml" value="0.2203125" />
+        <entry key="..\:/Estshartey/app/src/main/res/drawable/image_color.xml" value="0.2203125" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_boold.xml" value="0.1721014492753623" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_cardinfo.xml" value="0.17074275362318841" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_consulation.xml" value="0.25" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_consultation_payment.xml" value="0.17074275362318841" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_doctororpatient.xml" value="0.17074275362318841" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_food.xml" value="0.15625" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_getstarted2.xml" value="0.15625" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_history.xml" value="0.25" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_loginac.xml" value="0.15534420289855072" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_medications.xml" value="0.33" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_prescription.xml" value="0.20416666666666666" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_profile_medi.xml" value="0.25" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_ratingdoctors.xml" value="0.17074275362318841" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_register1.xml" value="0.15760869565217392" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_registerac.xml" value="0.15760869565217392" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/activity_smoking.xml" value="0.15625" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/carditem.xml" value="0.15534420289855072" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/historycarditem.xml" value="0.15534420289855072" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/menu_item.xml" value="0.1" />
+        <entry key="..\:/Estshartey/app/src/main/res/layout/sellect_all.xml" value="0.33" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_boold.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_cardinfo.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_consulation.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_consultation_payment.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_doctororpatient.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_food.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_getstarted2.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_getstarted3.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_getstarted4.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_getstartedscreen.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_history.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_login.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_loginac.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_main.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_medications.xml" value="0.1" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_password.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_prescription.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_profile.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_profile_medi.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_ratingdoctors.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_register.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_register1.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_registerac.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_reset.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/activity_smoking.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/carditem.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/historycarditem.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (13)/Estshartey/app/src/main/res/layout/sellect_all.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_cardinfo.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_consulation.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_consultation_payment.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_docprescription.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_doctororpatient.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_food.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_getstarted2.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_history.xml" value="0.17" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_history_doctor.xml" value="0.25" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_loginac.xml" value="0.25" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_prescription.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_prescsub.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_ratingdoctors.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_register1.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_registerac.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_sessiongoactive.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_signupdoctor.xml" value="0.21" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/activity_smoking.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/fragment_history.xml" value="0.25" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/historycarditem.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/menu_item.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/signup_doctor.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/New folder (15)/Estshartey/app/src/main/res/layout/signup_doctor1.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/Telegram Desktop/Estshartey v4/app/src/main/res/layout/activity_boold.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/Telegram Desktop/Estshartey v4/app/src/main/res/layout/activity_consulation.xml" value="0.26875" />
+        <entry key="..\:/Users/Hotline/Downloads/Telegram Desktop/Estshartey v4/app/src/main/res/layout/activity_consultation_payment.xml" value="0.26875" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/drawable/button_color.xml" value="0.2203125" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/drawable/checkbox.xml" value="0.1" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/drawable/ic_baseline_check_box_outline_blank_24.xml" value="0.215625" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/drawable/ic_check_box_24.xml" value="0.1" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/drawable/image_checkbox.xml" value="0.1" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/drawable/image_color.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_boold.xml" value="0.1" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_cardinfo.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_consulation.xml" value="0.33" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_consultation_payment.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_doctororpatient.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_food.xml" value="0.22" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_getstarted2.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_getstarted3.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_getstarted4.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_getstartedscreen.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_login.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_medications.xml" value="0.25" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_password.xml" value="0.21" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_pastmedications.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_prescription.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_profile_med.xml" value="0.17" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_profile_medi.xml" value="0.22" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_ratingdoctors.xml" value="0.25" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_register.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_register1.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_reset.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_smoking.xml" value="0.2" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/activity_smokinghabits.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/fragment_blank.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/fragment_one.xml" value="0.22" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/fragment_two.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/sellect_all.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/w10/AndroidStudioProjects/Estshartey/app/src/main/res/layout/selsect_allergieg.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

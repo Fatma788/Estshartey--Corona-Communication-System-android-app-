@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".consulation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:id="@+id/con"
+                android:layout_width="228dp"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="196dp"
+                android:background="@drawable/image_color"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Consultations"
+                android:textColor="@color/white"
+                android:textSize="46px" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                app:srcCompat="@drawable/pick15"
+                android:layout_width="91dp"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="265dp"
+                android:layout_marginBottom="22dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/speciality"
+                android:layout_width="213dp"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="-3dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Speciality"
+                android:textColor=" #485369"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/menu"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="33dp"
+                android:entries="@array/Speciality"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp" />
+
+            <TextView
+                android:id="@+id/Symptoms"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="70dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Symptoms"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/choose"
+                android:layout_width="326dp"
+                android:layout_height="23dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="96dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text=" "
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/choose2"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="147dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Attachments like (Medical test results, Radiology, ...etc)"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="23dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="66dp"
+                android:layout_marginTop="122dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:textColor="@color/black"
+
+                app:srcCompat="@drawable/pict2" />
+
+            <TextView
+                android:id="@+id/communicaton"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="184dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Communication Method"
+                android:backgroundTint="#00AFFA"
+                 />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="317dp"
+                android:layout_height="86dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="292dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="This doesn’t 100% guarantee you will be assigned to your selected pereference.
+         Assignation goes according to the available online doctors at the moment."
+                android:textColor=" #7B8497" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="387dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="I Prefer"
+
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/imageView12"
+                android:layout_width="140dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="-3dp"
+                android:layout_marginTop="415dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                app:srcCompat="@drawable/pict8" />
+
+            <ImageButton
+                android:id="@+id/imageView15"
+                android:layout_width="163dp"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="189dp"
+                android:layout_marginTop="414dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                app:srcCompat="@drawable/pict9"
+
+                />
+
+            <TextView
+                android:id="@+id/call"
+                android:layout_width="99dp"
+                android:layout_height="56dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="274dp"
+                android:layout_marginBottom="237dp"
+                android:clipToOutline="true"
+                android:gravity="center"
+                android:text="Phone Call"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/Video"
+                android:layout_width="105dp"
+                android:layout_height="58dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="220dp"
+                android:layout_marginRight="47dp"
+                android:layout_marginBottom="240dp"
+                android:clipToOutline="true"
+                android:gravity="center"
+                android:text="Video Call"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/chat"
+                android:layout_width="98dp"
+                android:layout_height="54dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="115dp"
+                android:layout_marginRight="159dp"
+                android:layout_marginBottom="236dp"
+                android:clipToOutline="true"
+                android:gravity="center"
+                android:text="Chat"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/imageView10"
+                android:layout_width="27dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="210dp"
+                android:lineSpacingExtra="0sp"
+
+                app:srcCompat="@drawable/pick7" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="27dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="134dp"
+                android:layout_marginTop="208dp"
+                android:lineSpacingExtra="0sp"
+                app:srcCompat="@drawable/chat" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="27dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="259dp"
+                android:layout_marginTop="203dp"
+                android:lineSpacingExtra="0sp"
+                app:srcCompat="@drawable/camara" />
+
+            <CheckBox
+                android:id="@+id/tak2"
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="266dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="I would prefer a specific doctor gender"
+
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Continue"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="-1dp"
+                android:backgroundTint="#00AFFA"
+                android:clipToOutline="true"
+                android:text="Continue To Payment"
+                android:textColor="@color/white"
+                app:backgroundTint="#00AFFA" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/consltt"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/doctor"
+                android:clipToOutline="true" />
+
+            <ImageButton
+                android:id="@+id/profile"
+                android:layout_width="37dp"
+                android:layout_height="43dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="329dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/pict11"
+                android:clipToOutline="true" />
+
+            <ImageButton
+                android:id="@+id/history"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/pict10"
+                android:clipToOutline="true" />
+
+
+            />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

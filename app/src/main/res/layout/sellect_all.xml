@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chronic">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:id="@+id/select_all_"
+                android:text="Select all Your Chronic Diseases"
+                android:layout_width="193dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="196dp"
+                android:gravity="center_horizontal|center_vertical"
+
+                android:textColor=" #515D76"
+                android:textSize="46px" />
+            <TextView
+                android:id="@+id/chronic_dis"
+                android:text="Chronic Diseases "
+                android:layout_width="193dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="196dp"
+                android:gravity="center_horizontal|center_vertical"
+
+                android:textColor=" #515D76"
+                android:textSize="46px" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:layout_margin="10dp">
+
+            <CheckBox
+                android:id="@+id/obe"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="30dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Obesity"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+                android:id="@+id/arth"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="95dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Arthritis"
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+
+                android:id="@+id/cance"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="156dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Cancer"
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+
+                android:id="@+id/diabetes"
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="224dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Diabetes"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+
+                android:id="@+id/cardiovascu"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="287dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+
+                android:lineSpacingExtra="0sp"
+                android:text="Cardiovascular diseases"
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="308dp"
+                android:layout_height="64dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="183dp"
+                android:clipToOutline="true"
+                android:text="Save"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/BrandBlue" />
+
+            />
+
+        </RelativeLayout>
+    </LinearLayout>>
+
+</ScrollView>

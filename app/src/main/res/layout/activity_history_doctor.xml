@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History_Doctor">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/additional_document_images"
+            android:layout_width="wrap_content"
+            android:layout_height="363dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.283">
+
+            <TextView
+
+                android:layout_width="410dp"
+                android:layout_height="47dp"
+                android:width="200dp"
+                android:background="@drawable/input"
+
+                android:paddingStart="20dp"
+                android:paddingTop="8dp"
+                android:textSize="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.143"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.757" />
+
+
+            <TextView
+
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradientcolor"
+                android:paddingVertical="12dp"
+                android:paddingStart="20dp"
+                android:text="History"
+
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/chat"
+                android:layout_width="49dp"
+                android:layout_height="51dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="318dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/doc4"
+                android:clipToOutline="true" />
+
+            <TextView
+                android:id="@+id/docname"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="73dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/spec"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="97dp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/datee"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="150dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/symm"
+                android:layout_width="131dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="177dp"
+                android:gravity="top"
+                android:text="Patient Symptoms" />
+
+            <TextView
+                android:id="@+id/timee"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="150dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/symmtext"
+                android:layout_width="289dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="210dp"
+                android:gravity="center_vertical" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="206dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+
+            <TextView
+                android:id="@+id/fdiag"
+                android:layout_width="365dp"
+                android:layout_height="62dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="97dp"
+                android:gravity="top" />
+
+            <RelativeLayout
+
+                android:layout_width="389dp"
+                android:layout_height="54dp"
+                android:background="@drawable/gradientcolor">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+
+                    android:paddingStart="20dp"
+                    android:text="Diagnosis"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/ic_prescription_gray" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="401dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+
+            <TextView
+                android:id="@+id/fMedicine"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="73dp"
+                android:gravity="center_vertical"
+                android:text="Medicine" />
+
+            <TextView
+                android:id="@+id/fMedicinetext"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="97dp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/fdose"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="150dp"
+                android:gravity="center_vertical"
+                android:text="dose" />
+
+            <TextView
+                android:id="@+id/fdosetext"
+                android:layout_width="71dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="172dp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/fevery"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="150dp"
+                android:gravity="center_vertical"
+                android:text="Every" />
+
+            <TextView
+                android:id="@+id/feverytext"
+                android:layout_width="71dp"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="172dp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/fduration"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="150dp"
+                android:gravity="center_vertical"
+                android:text="Duration" />
+
+            <TextView
+                android:id="@+id/fdurationtext"
+                android:layout_width="71dp"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="172dp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/fcom"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="220dp"
+                android:gravity="center_vertical"
+                android:text="Doctor Comments" />
+
+            <TextView
+                android:id="@+id/fdoccom"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="266dp"
+                android:gravity="top" />
+
+
+            <RelativeLayout
+
+                android:layout_width="389dp"
+                android:layout_height="54dp"
+                android:background="@drawable/gradientcolor">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+
+                    android:paddingStart="20dp"
+                    android:text="Medications"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/ic_prescription_gray" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="373dp"
+            android:layout_height="277dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+
+            <TextView
+                android:id="@+id/fTest"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="73dp"
+                android:gravity="center_vertical"
+                android:text="Test" />
+
+            <TextView
+                android:id="@+id/fTesttext"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="97dp"
+                android:gravity="top" />
+
+
+            <TextView
+                android:id="@+id/fcom2"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="160dp"
+                android:gravity="center_vertical"
+                android:text="Doctor Comments" />
+
+            <TextView
+                android:id="@+id/fdoccom2"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="210dp"
+                android:gravity="top" />
+
+
+            <RelativeLayout
+
+                android:layout_width="389dp"
+                android:layout_height="54dp"
+                android:background="@drawable/gradientcolor">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+
+                    android:paddingStart="20dp"
+                    android:text="Medical Tests"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/ic_prescription_gray" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="371dp"
+            android:layout_height="387dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+
+            <TextView
+                android:id="@+id/fRadiologyType"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="73dp"
+                android:gravity="center_vertical"
+                android:text="Radiology Type" />
+
+            <TextView
+                android:id="@+id/fRadiologyTypetext"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="97dp"
+                android:gravity="top" />
+
+
+            <TextView
+                android:id="@+id/on"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="146dp"
+                android:gravity="center_vertical"
+                android:text="On" />
+
+            <TextView
+                android:id="@+id/fontext"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="195dp"
+                android:gravity="top" />
+
+
+            <TextView
+                android:id="@+id/fcom3"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="245dp"
+                android:gravity="center_vertical"
+                android:text="Doctor Comments" />
+
+            <TextView
+                android:id="@+id/fdoccom3"
+                android:layout_width="304dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="290dp"
+                android:gravity="top" />
+
+
+            <RelativeLayout
+
+                android:layout_width="389dp"
+                android:layout_height="54dp"
+                android:background="@drawable/gradientcolor">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+
+                    android:paddingStart="20dp"
+                    android:text="Radiology"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/ic_prescription_gray" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/fRating"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:gravity="top"
+                android:text="Rating" />
+
+
+            <RatingBar
+                android:id="@+id/fratingBarf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.351"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintRight_creator="1"
+                tools:layout_constraintTop_creator="1" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="515dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageButton
+                android:id="@+id/history5"
+                android:layout_width="69dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="80dp"
+
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/input"
+                android:src="@drawable/vec"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.074"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.976" />
+
+            <ImageButton
+                android:id="@+id/prof5"
+                android:layout_width="70dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="365dp"
+
+                android:background="@drawable/input"
+                android:src="@drawable/useriicon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.885"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.976" />
+
+            <ImageButton
+                android:id="@+id/cons5"
+                android:layout_width="72dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="205dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/white"
+                android:src="@drawable/doctorr"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.467"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.976" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

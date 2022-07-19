@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".food">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/member_name"
+                android:layout_width="193dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="196dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Food Allergies"
+                android:textColor=" #515D76"
+                android:textSize="46px" />
+
+            <TextView
+                android:id="@+id/selectfood"
+                android:layout_width="193dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="196dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Select Your Allergies"
+                android:textColor=" #515D76"
+                android:textSize="46px" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:layout_margin="10dp">
+
+            <CheckBox
+                android:id="@+id/option"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Milk"
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+                android:id="@+id/optionegge"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="57dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Eggs"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+                android:id="@+id/optionpe"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="103dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Peanut"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+                android:id="@+id/optiontree"
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="156dp"
+                android:button="@drawable/image_checkbox"
+
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Tree Nut"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+                android:id="@+id/optionsoy"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="206dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Soy"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+                android:id="@+id/apple"
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="261dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="apple"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+                android:id="@+id/optionw"
+                android:layout_width="351dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="319dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Wheat"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+
+                android:id="@+id/optionfish"
+                android:layout_width="351dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="371dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Fish"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+
+                android:id="@+id/optionShellfish"
+                android:layout_width="351dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="421dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Shellfish"
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+
+
+                android:id="@+id/optionOthers"
+                android:layout_width="351dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="476dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Others"
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="308dp"
+                android:layout_height="64dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="20dp"
+                android:clipToOutline="true"
+                android:text="Save"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/BrandBlue" />
+
+            />
+
+        </RelativeLayout>
+    </LinearLayout>>
+</ScrollView>

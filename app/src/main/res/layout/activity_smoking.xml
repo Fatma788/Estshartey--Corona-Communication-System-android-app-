@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".smoking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:id="@+id/smoking_hab"
+                android:layout_width="193dp"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="196dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Smoking Habits"
+                android:textSize="46px"
+                android:textColor=" #515D76" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:layout_margin="10dp">
+
+            <CheckBox
+                android:id="@+id/i_don_t_smo"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="I don’t Smoke"
+                android:textColor="#485369"
+                android:textSize="26sp" />
+            <CheckBox
+
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="60dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:id="@+id/light_smoke"
+
+                android:text="Light Smoker"
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+                android:id="@+id/intermediat"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="114dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Intermediate Smoker"
+
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <CheckBox
+                android:id="@+id/heavy_smoke"
+
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="168dp"
+                android:button="@drawable/image_checkbox"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Heavy Smoker"
+                android:textColor="#485369"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="308dp"
+                android:layout_height="64dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="131dp"
+                android:clipToOutline="true"
+                android:text="Save"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/BrandBlue" />
+
+            />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>>
+
+
+</ScrollView>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Estshartey</string>
+    <string-array name="Gender">
+        <item>Gender</item>
+        <item>female</item>
+        <item>male</item>
+    </string-array>
+    <string name="done">done</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Speciality">
+        <item>Psychiatry</item>
+        <item>Dentistry</item>
+        <item>Neurology</item>
+        <item>Nutrition</item>
+        <item>Dermatology</item>
+        <item>Andrology</item>
+    </string-array>
+
+</resources>

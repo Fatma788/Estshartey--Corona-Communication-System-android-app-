@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".session">
+<LinearLayout
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:id="@+id/prof"
+            android:layout_width="193dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="196dp"
+            android:background="@drawable/image_color"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Seesions"
+            android:textColor="@color/white"
+            android:textSize="46px" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="91dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginEnd="265dp"
+            android:layout_marginBottom="22dp"
+            app:srcCompat="@drawable/pick15" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="294dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:text="GO Inactive"
+            android:textColor="#FF6767"
+            android:textSize="34px" />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="112dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/dermatology"
+            android:layout_width="86dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="41dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0sp"
+            android:textColor="#485369" />
+        <TextView
+            android:id="@+id/symptoms"
+            android:layout_width="73dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="73dp"
+            android:text="symptoms"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/my_neck_ski"
+            android:layout_width="304dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="97dp"
+            android:gravity="top" />
+
+        <TextView
+            android:id="@+id/attachments"
+            android:layout_width="87dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="145dp"
+            android:gravity="center_vertical"
+            android:text="attachments" />
+
+        <ImageView
+            android:id="@+id/frame_97"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="166dp"
+            android:clipToOutline="true" /><![CDATA[
+        />
+
+        />
+
+        ]]>
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="348dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/doc4"
+            android:clipToOutline="true" />
+
+        <Button
+            android:id="@+id/main_btn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="1dp"
+            android:backgroundTint="#00AFFA"
+
+            android:clipToOutline="true"
+            android:text="Accept" />
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:id="@+id/doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="213dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/doctor"
+            android:clipToOutline="true" />
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="37dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="367dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/pict11"
+            android:clipToOutline="true" />
+
+        <ImageButton
+            android:id="@+id/history"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/pict10"
+            android:clipToOutline="true" />
+
+
+        />
+    </RelativeLayout>
+</LinearLayout>
+
+</ScrollView>

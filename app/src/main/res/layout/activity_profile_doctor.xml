@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_doctor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:id="@+id/prof"
+                android:layout_width="193dp"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="196dp"
+                android:background="@drawable/image_color"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:textSize="46px" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="91dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="265dp"
+                android:layout_marginBottom="22dp"
+                app:srcCompat="@drawable/pick15" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+           >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="112dp"
+                android:layout_height="29dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="178dp"
+                android:layout_marginTop="14dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/old"
+                android:layout_width="112dp"
+                android:layout_height="29dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="191dp"
+                android:layout_marginTop="48dp"
+                android:gravity="center_vertical"
+                android:text="old" />
+
+
+            <TextView
+                android:id="@+id/rate"
+                android:layout_width="112dp"
+                android:layout_height="29dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="197dp"
+                android:layout_marginTop="89dp"
+                android:gravity="center_vertical"
+                android:text="star" />
+
+            <ImageView
+                android:id="@+id/doc"
+                android:layout_width="132dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="25dp"
+                android:clipToOutline="true" />
+            />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="MyInformation"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="43dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="70dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="102dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Phone Number"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/phone2"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="131dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="+2"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="162dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Email"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/email2"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="196dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="230dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Country"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/county2"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="259dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="288dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Gender"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/gender2"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="319dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="mal"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/birth"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="350dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Birthdate"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/birth2"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="377dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/lises"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="400dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Profession license"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/frame_97"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="431dp"
+                android:clipToOutline="true" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="465dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="National ID"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/frame_77"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="489dp"
+                android:clipToOutline="true" />
+
+            <Button
+                android:id="@+id/main_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="37dp"
+                android:backgroundTint="#00AFFA"
+
+                android:clipToOutline="true"
+                android:text="ChangePassword" />
+
+            <TextView
+                android:id="@+id/pass"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="534dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0sp"
+                android:text="Password"
+                android:textColor="@color/black" />
+            />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/doctor"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/doctor"
+                android:clipToOutline="true" />
+
+            <ImageButton
+                android:id="@+id/profile"
+                android:layout_width="37dp"
+                android:layout_height="43dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="329dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/pict11"
+                android:clipToOutline="true" />
+
+            <ImageButton
+                android:id="@+id/history"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/pict10"
+                android:clipToOutline="true" />
+
+
+            />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
